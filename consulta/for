@@ -1,0 +1,78 @@
+#include <stdio.h>
+
+int main(void) {
+
+
+ // 1-  
+ //    for(int i=0; i < 101; i++){
+ //     if(i % 10 == 0){
+ //       printf("\n%d é múltiplo de 10 ", i);
+ //     }
+ //     else{
+ //       printf("\n%d", i);
+ //     }
+ //   }
+
+  //2- 
+  float alt= 0;
+  char sex;
+  float maiorA= 0;
+  float menorA= 0;
+  float mediaM= 0;
+  int qtdM= 0;
+  int qtdH= 0;
+  float somaM= 0;
+
+  for(int i= 0; i < 5; i++){
+   printf("Digite a altura: ");
+   scanf("%f", &alt);
+   printf("Digite o sexo(m , f): ");
+   scanf(" %c", &sex);
+
+   if(alt > maiorA){
+    maiorA = alt;
+  }
+  if(menorA == 0){
+    menorA = alt; 
+  }
+  else{
+    if(alt < menorA){
+      menorA = alt;
+    } 
+  }
+  }  
+
+  if(sex == 'f'){
+    qtdM++;
+    somaM = somaM + alt;
+  }
+  else{
+    qtdH++;
+  }
+
+mediaM = somaM / qtdM;
+
+printf("\nMaior altura: %.2f", maiorA);
+printf("\nMenor altura: %.2f", menorA);
+printf("\nMédia de altura das mulheres: %.2f", mediaM);
+printf("\nNúmero de homens: %d", qtdH);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}

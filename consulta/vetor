@@ -1,0 +1,75 @@
+#include <stdio.h>
+
+int main(void) {
+
+  // int idades [4];
+  // float media= 0, soma= 0;
+
+  // for(int i = 0; i < 4; i++){
+  //   printf("Idade? ");
+  //   scanf("%d", &idades[i]);
+  //   soma = soma + idades[i];
+  // }
+  //   printf("Última idade é: %d", idades[3]);
+  //   media = soma / 4;
+  //   printf("\nMédia das idades: %.2f", media);
+
+
+  int idades [5];
+  float media= 0, soma= 0;
+  int maior= 0;
+
+  for(int i = 0; i < 5; i++){
+    printf("Número: ");
+    scanf("%d", &idades[i]);
+    soma = soma + idades[i];
+
+  }
+  media= soma / 5;
+
+  printf("\nMédia: %.2f", media);
+
+  // for(int i = 0; i  < 5; i++){
+  //   if (idades[i] > media) {
+  //      printf("\nMaior que a média: %d", idades[i]);
+  //    }
+  // }
+
+  // int sal[4];
+  // char iniciais[4];
+  // float horasA= 0, maiorSal =0;
+  // char inicialMaiorSal;
+
+  // for(int i = 0; i < 5; i++){
+  //   printf("Digite sua inicial: ");
+  //   scanf(" %c", &iniciais[i]);
+  //   printf("Tempo de trabalho(H/A): ");
+  //   scanf("%f", &horasA);
+  //   sal[i] = horasA * 30;
+
+  //   if(sal[i] > maiorSal){
+  //     maiorSal = sal[i];
+  //     inicialMaiorSal = iniciais[i];
+  //   }
+  // }
+
+  // printf("\nMaior salário: %.2f", maiorSal);
+  // printf("\nInicial do maior salário: %c", inicialMaiorSal);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}

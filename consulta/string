@@ -1,0 +1,157 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+  // char cargos[3][30];
+
+  // for(int i = 0; i < 3; i++){
+  //   printf("Cargo: ");
+  //   scanf("%s", cargos[i]);
+  // }
+  // for(int i = 0; i < 3; i++){
+  //   printf("\nCargo Digitado: %s", cargos[i]);
+  // }
+
+  // char nome[30] = "Nicollas";
+  // char nomeComp[30] = "";
+
+  // strcat(nomeComp, nome);
+  // strcat(nomeComp, "");
+  // strcat(nomeComp, "Vilela");
+
+  // printf("\n%s", nomeComp);
+  // printf("\n%s", nome);
+  // printf("\n %c", nomeComp[0]);
+
+  // char nome[30];
+  // char sobrenome[30];
+  // char nomeCompleto[30] = "";
+
+  // printf("Digite seu nome: ");
+  // scanf("%s", nome);
+  // printf("Digite seu sobrenome: ");
+  // scanf("%s", sobrenome);
+
+  // strcat(nomeCompleto, nome);
+  // strcat(nomeCompleto, " ");
+  // strcat(nomeCompleto, sobrenome);
+
+  // printf("Nome completo: %s", nomeCompleto);
+
+  // char nome[30] = ("Nicollas");
+  // char copia[30];
+
+  // strcpy(copia, nome);
+  // printf("%s", copia);
+
+  // char paises[3][30];
+  // char paisFinal[30];
+
+  // for(int i = 0; i < 3; i++){
+  //   printf("País: ");
+  //   scanf("%s", paises[i]);
+  //   strcpy(paisFinal, paises[i]);
+  //   strcat(paisFinal, " - país");
+  //   printf("%s", paisFinal);
+  // }
+
+  // char paises[3][30];
+  // char paisFinal[30]= " ";
+  // int tam= 0;
+
+  // for(int i = 0; i < 3; i++){
+  //   printf("\nPaís: ");
+  //   scanf("%s", paises[i]);
+  //   strcpy(paisFinal, paises[i]);
+  //   strcat(paisFinal, " - país");
+  //   printf("%s", paisFinal);
+  //   tam = strlen(paises[i]);
+  //   printf("\nTamanho: %d", tam);
+  // }
+
+  // int comp =0;
+
+  // comp= strcmp(paises[i], "Brasil");
+  // if(comp == 0){
+  //   printf("É Brasil");
+  // }
+  // else{
+  //   printf("Não é Brasil");
+  // }
+  // }
+
+    // 1-
+  // char nome[30];
+
+  // printf("Digite um nome: ");
+  // scanf("%s", nome);
+
+  // for(int i = 0; i < 4; i++){
+  //   printf("\nLetra %d: %c", i, nome[i]);
+  // }
+
+  // //2
+
+  // char nome[30];
+  // int tam = 0;
+
+  // printf("Digite um nome: ");
+  // scanf("%s", nome);
+
+  // tam = strlen(nome);
+  // printf("Tamanho: %d", tam);
+
+  //3-
+  // char pais[30];
+  // int comp = 0;
+
+  // printf("Digite um país: ");
+  // scanf("%s", pais);
+
+  // comp = strcmp(pais, "Brasil");
+
+  // if(comp == 0){
+  //   printf("É brasileira");
+  // }
+  // else{
+  //   printf("Não é brasileira");
+  // }
+
+  //4-
+
+  // 4
+
+  // float alturas[3];
+  // char nomes[3][30];
+  // float maiorAlt = 0;
+  // char nomeAlto[30];
+
+  // for(int i = 0; i < 3; i++){
+  //   printf("Digite seu nome: ");
+  //   scanf("%s", nomes[i]);
+  //   printf("Digite sua altura: ");
+  //   scanf("%f", &alturas[i]);
+
+  //   if(alturas[i] > maiorAlt){
+  //     maiorAlt = alturas[i];
+  //     strcpy(nomeAlto, nomes[i]);
+  //   }
+  // }
+
+  // printf("\nNome da pessoa mais alta: %s", nomeAlto);
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}
